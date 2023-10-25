@@ -1,0 +1,31 @@
+.banner h1 {
+  color: white;
+  font-family: Courier;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+.banner h2 {
+  text-decoration: underline;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+.banner {
+  color: rgb(255, 255, 255);
+  padding: 200px 0px;
+  margin: 0px;
+  background-image: url("football-stadium-web-banner-background_8087-5384.avif");
+  background-size: cover;
+  background-position: center;
+}
+.banner a {
+  text-decoration: underline;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}

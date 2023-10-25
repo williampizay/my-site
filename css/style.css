@@ -1,0 +1,75 @@
+@import url("banner.css");
+
+Body {
+  background-color: rgba(255, 255, 255, 1);
+  color: darkgrey;
+  font-family: Times, sherif;
+}
+
+p {
+  font-weight: 100;
+  text-justify: justify;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.btn-grp {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn h3 {
+  text-decoration: underline;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
+  width: 100px;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+.btn {
+  border-radius: 10%;
+  margin: 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-grow: 1;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#btn1 {
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 75px;
+}
+#btn2 {
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 75px;
+}
+#btn3 {
+  background-image: url("3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 75px;
+}
+#btn4 {
+  background-image: url("4.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 75px;
+}
+
+#page {
+  width: 1000px;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  #page {
+    width: auto;
+    margin: 0px auto;
+  }
+}
